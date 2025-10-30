@@ -570,7 +570,7 @@ gitalk:
     # GitHub Application Client Secret.
     clientSecret: '2ee21773bd5e8e2fe18df79dc790056f9c333c93'
     # The repository of store comments.
-    repo: '你的 GitHub 仓库名' # 例如 my-personal-website
+    repo: 'https://github.com/twx145/My-Blog' # 例如 my-personal-website
     # The owner of the repository.
     owner: 'TWX145' # 例如 YourGitHubUsername
     # The admin of the repository.
