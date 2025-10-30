@@ -561,8 +561,8 @@ comments:
   livere:
     uid:
 
-# Gitalk
-# https://github.com/gitalk/gitalk
+  # Gitalk
+  # https://github.com/gitalk/gitalk
   gitalk:
     enable: true
     # GitHub Application Client ID.
