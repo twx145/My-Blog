@@ -564,12 +564,22 @@ livere:
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
-  option:
+    enable: true
+    # GitHub Application Client ID.
+    clientID: 'Ov23liv9AnaZzvMgZNdZ'
+    # GitHub Application Client Secret.
+    clientSecret: '2ee21773bd5e8e2fe18df79dc790056f9c333c93'
+    # The repository of store comments.
+    repo: '你的 GitHub 仓库名' # 例如 my-personal-website
+    # The owner of the repository.
+    owner: 'TWX145' # 例如 YourGitHubUsername
+    # The admin of the repository.
+    admin: ['TWX145']
+    # ID used to identify pages.
+    # Options: pathname | url | title
+    id: pathname
+    # Whether to create a new issue when the page is visited for the first time.
+    createIssueManually: true
 
 # Valine
 # https://valine.js.org
