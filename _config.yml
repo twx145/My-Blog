@@ -113,15 +113,3 @@ encrypt:
   # 可选：自定义 cookie 名称
   cookie_name: 'hbe'
 
-theme_config:
-  comments:
-    use: 'Gitalk'
-    gitalk:
-      enable: true
-      clientID: 'Ov23liv9AnaZzvMgZNdZ'
-      clientSecret: '2ee21773bd5e8e2fe18df79dc790056f9c333c93'
-      repo: 'My-Blog'
-      owner: 'TWX145'
-      admin: ['TWX145']
-      id: 'pathname'
-      createIssueManually: true

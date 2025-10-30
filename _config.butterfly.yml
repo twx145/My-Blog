@@ -531,16 +531,16 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  # use: 'Gitalk'
-  # # Display the comment name next to the button
-  # text: true
-  # # Lazyload: The comment system will be load when comment element enters the browser's viewport.
-  # # If you set it to true, the comment count will be invalid
-  # lazyload: false
-  # # Display comment count in post's top_img
-  # count: false
-  # # Display comment count in Home Page
-  # card_post_count: false
+  use: 'Gitalk'
+  # Display the comment name next to the button
+  text: true
+  # Lazyload: The comment system will be load when comment element enters the browser's viewport.
+  # If you set it to true, the comment count will be invalid
+  lazyload: false
+  # Display comment count in post's top_img
+  count: false
+  # Display comment count in Home Page
+  card_post_count: false
 
   # # Disqus
   # # https://disqus.com/
@@ -561,25 +561,25 @@ comments:
   # livere:
   #   uid:
 
-  # # Gitalk
-  # # https://github.com/gitalk/gitalk
-  # gitalk:
-  #   enable: true
-  #   # GitHub Application Client ID.
-  #   clientID: 'Ov23liv9AnaZzvMgZNdZ'
-  #   # GitHub Application Client Secret.
-  #   clientSecret: '2ee21773bd5e8e2fe18df79dc790056f9c333c93'
-  #   # The repository of store comments.
-  #   repo: 'My-Blog' # 例如 my-personal-website
-  #   # The owner of the repository.
-  #   owner: 'TWX145' # 例如 YourGitHubUsername
-  #   # The admin of the repository.
-  #   admin: ['TWX145']
-  #   # ID used to identify pages.
-  #   # Options: pathname | url | title
-  #   id: 'pathname'
-  #   # Whether to create a new issue when the page is visited for the first time.
-  #   createIssueManually: true
+  # Gitalk
+  # https://github.com/gitalk/gitalk
+  gitalk:
+    enable: true
+    # GitHub Application Client ID.
+    clientID: 'Ov23liv9AnaZzvMgZNdZ'
+    # GitHub Application Client Secret.
+    clientSecret: '2ee21773bd5e8e2fe18df79dc790056f9c333c93'
+    # The repository of store comments.
+    repo: 'My-Blog' # 例如 my-personal-website
+    # The owner of the repository.
+    owner: 'TWX145' # 例如 YourGitHubUsername
+    # The admin of the repository.
+    admin: ['TWX145']
+    # ID used to identify pages.
+    # Options: pathname | url | title
+    id: 'pathname'
+    # Whether to create a new issue when the page is visited for the first time.
+    createIssueManually: true
 
   # Valine
   # https://valine.js.org
