@@ -542,24 +542,24 @@ comments:
   # Display comment count in Home Page
   card_post_count: false
 
-# Disqus
-# https://disqus.com/
-disqus:
-  shortname:
-  # For newest comments widget
-  apikey:
+  # Disqus
+  # https://disqus.com/
+  disqus:
+    shortname:
+    # For newest comments widget
+    apikey:
 
-# Alternative Disqus - Render comments with Disqus API
-# https://github.com/SukkaW/DisqusJS
-disqusjs:
-  shortname:
-  apikey:
-  option:
+  # Alternative Disqus - Render comments with Disqus API
+  # https://github.com/SukkaW/DisqusJS
+  disqusjs:
+    shortname:
+    apikey:
+    option:
 
-# Livere
-# https://www.livere.com/
-livere:
-  uid:
+  # Livere
+  # https://www.livere.com/
+  livere:
+    uid:
 
 # Gitalk
 # https://github.com/gitalk/gitalk
@@ -581,86 +581,86 @@ livere:
     # Whether to create a new issue when the page is visited for the first time.
     createIssueManually: true
 
-# Valine
-# https://valine.js.org
-valine:
-  appId:
-  appKey:
-  avatar: monsterid
-  # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  serverURLs:
-  bg:
-  # Use Valine visitor count as the page view count
-  visitor: false
-  option:
+  # Valine
+  # https://valine.js.org
+  valine:
+    appId:
+    appKey:
+    avatar: monsterid
+    # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+    serverURLs:
+    bg:
+    # Use Valine visitor count as the page view count
+    visitor: false
+    option:
 
-# Waline - A simple comment system with backend support fork from Valine
-# https://waline.js.org/
-waline:
-  serverURL:
-  bg:
-  # Use Waline pageview count as the page view count
-  pageview: false
-  option:
+  # Waline - A simple comment system with backend support fork from Valine
+  # https://waline.js.org/
+  waline:
+    serverURL:
+    bg:
+    # Use Waline pageview count as the page view count
+    pageview: false
+    option:
 
-# Utterances
-# https://utteranc.es/
-utterances:
-  repo:
-  # Issue Mapping: pathname/url/title/og:title
-  issue_term: pathname
-  # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
-  light_theme: github-light
-  dark_theme: photon-dark
-  js:
-  option:
+  # Utterances
+  # https://utteranc.es/
+  utterances:
+    repo:
+    # Issue Mapping: pathname/url/title/og:title
+    issue_term: pathname
+    # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
+    light_theme: github-light
+    dark_theme: photon-dark
+    js:
+    option:
 
-# Facebook Comments Plugin
-# https://developers.facebook.com/docs/plugins/comments/
-facebook_comments:
-  app_id:
-  # optional
-  user_id:
-  pageSize: 10
-  # Choose: social / time / reverse_time
-  order_by: social
-  lang: en_US
+  # Facebook Comments Plugin
+  # https://developers.facebook.com/docs/plugins/comments/
+  facebook_comments:
+    app_id:
+    # optional
+    user_id:
+    pageSize: 10
+    # Choose: social / time / reverse_time
+    order_by: social
+    lang: en_US
 
-# Twikoo
-# https://github.com/imaegoo/twikoo
-twikoo:
-  envId:
-  region:
-  # Use Twikoo visitor count as the page view count
-  visitor: false
-  option:
+  # Twikoo
+  # https://github.com/imaegoo/twikoo
+  twikoo:
+    envId:
+    region:
+    # Use Twikoo visitor count as the page view count
+    visitor: false
+    option:
 
-# Giscus
-# https://giscus.app/
-giscus:
-  repo:
-  repo_id:
-  category_id:
-  light_theme: light
-  dark_theme: dark
-  js:
-  option:
+  # Giscus
+  # https://giscus.app/
+  giscus:
+    repo:
+    repo_id:
+    category_id:
+    light_theme: light
+    dark_theme: dark
+    js:
+    option:
 
-# Remark42
-# https://remark42.com/docs/configuration/frontend/
-remark42:
-  host:
-  siteId:
-  option:
+  # Remark42
+  # https://remark42.com/docs/configuration/frontend/
+  remark42:
+    host:
+    siteId:
+    option:
 
-# Artalk
-# https://artalk.js.org/guide/frontend/config.html
-artalk:
-  server:
-  site:
-  # Use Artalk visitor count as the page view count
-  visitor: false
-  option:
+  # Artalk
+  # https://artalk.js.org/guide/frontend/config.html
+  artalk:
+    server:
+    site:
+    # Use Artalk visitor count as the page view count
+    visitor: false
+    option:
 
 # --------------------------------------
 # Chat Services
