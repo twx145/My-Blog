@@ -5,7 +5,7 @@ tags:
   - 关于我
   - 博客
 categories: 随笔
-password: your-secret-password 
+# password: your-secret-password 
 ---
 
 你好呀！欢迎你发现这片刚刚萌芽的数字花园。

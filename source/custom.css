@@ -1,0 +1,58 @@
+/* --- Stardust Abyss Custom CSS --- */
+
+/* 1. 全局背景和字体颜色 */
+body {
+  background: #0A192F !important; /* 深渊背景 */
+  color: #8892B0; /* 默认文字颜色 */
+}
+
+/* 2. 所有卡片元素样式 (文章列表、侧边栏、页面等) */
+#aside-content .card-widget,
+#recent-posts > .recent-post-item,
+#post,
+.page,
+#footer {
+  background: #172A45 !important; /* 卡片背景 */
+  border-radius: 12px; /* 增加圆角，更显柔和 */
+  border: 1px solid #304A6E; /* 添加一个微妙的边框来增强轮廓 */
+  transition: all 0.3s ease; /* 为悬停效果添加过渡动画 */
+}
+
+/* 3. 卡片悬停时发光效果，科技感UP */
+#aside-content .card-widget:hover,
+#recent-posts > .recent-post-item:hover {
+  transform: translateY(-5px); /* 向上微移 */
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.2); /* 星尘青辉光 */
+  border-color: #64FFDA;
+}
+
+/* 4. 标题和主要文字颜色 */
+#post-title,
+.post-copyright,
+.card-widget .card-content .item-headline,
+h1, h2, h3, h4, h5, h6 {
+  color: #CCD6F6 !important; /* 主要文字颜色 */
+}
+
+/* 5. 链接悬停效果 */
+a:hover {
+  color: #F57DFF !important; /* 悬停时变为极光品红 */
+}
+
+/* 6. 顶部导航栏和页脚的特殊处理 */
+#nav {
+  background: rgba(23, 42, 69, 0.8) !important; /* 半透明的卡片背景 */
+  backdrop-filter: blur(10px); /* 现代毛玻璃效果 */
+  border-bottom: 1px solid #304A6E;
+}
+
+#footer {
+  color: #8892B0;
+}
+
+/* 7. 优化代码块样式 */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #CCD6F6; /* 代码默认文字颜色 */
+  text-shadow: none;
+}
