@@ -563,23 +563,23 @@ livere:
 
 # Gitalk
 # https://github.com/gitalk/gitalk
-gitalk:
-    enable: true
-    # GitHub Application Client ID.
-    clientID: 'Ov23liv9AnaZzvMgZNdZ'
-    # GitHub Application Client Secret.
-    clientSecret: '2ee21773bd5e8e2fe18df79dc790056f9c333c93'
-    # The repository of store comments.
-    repo: 'My-Blog' # 例如 my-personal-website
-    # The owner of the repository.
-    owner: 'TWX145' # 例如 YourGitHubUsername
-    # The admin of the repository.
-    admin: ['TWX145']
-    # ID used to identify pages.
-    # Options: pathname | url | title
-    id: pathname
-    # Whether to create a new issue when the page is visited for the first time.
-    createIssueManually: true
+  gitalk:
+      enable: true
+      # GitHub Application Client ID.
+      clientID: 'Ov23liv9AnaZzvMgZNdZ'
+      # GitHub Application Client Secret.
+      clientSecret: '2ee21773bd5e8e2fe18df79dc790056f9c333c93'
+      # The repository of store comments.
+      repo: 'My-Blog' # 例如 my-personal-website
+      # The owner of the repository.
+      owner: 'TWX145' # 例如 YourGitHubUsername
+      # The admin of the repository.
+      admin: ['TWX145']
+      # ID used to identify pages.
+      # Options: pathname | url | title
+      id: pathname
+      # Whether to create a new issue when the page is visited for the first time.
+      createIssueManually: true
 
 # Valine
 # https://valine.js.org
@@ -1062,7 +1062,7 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/custom.css">
   bottom:
     # - <script src="xxxx"></script>
 
