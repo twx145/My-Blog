@@ -531,7 +531,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use: Gitalk
+  use: 'Gitalk'
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -577,7 +577,7 @@ livere:
     admin: ['TWX145']
     # ID used to identify pages.
     # Options: pathname | url | title
-    id: pathname
+    id: 'pathname'
     # Whether to create a new issue when the page is visited for the first time.
     createIssueManually: true
 
